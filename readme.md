@@ -66,8 +66,12 @@ jupyter notebook diabeties.ipynb
 Or use VS Code or any Jupyter-compatible interface to execute the notebook.
 
 ---
-
-## 5. Start the Django Server
+## 5.Tensorboard
+Run following command to see the Tensorboard result
+```bash
+tensorboard --logdir logs/fit/
+```
+## 6. Start the Django Server
 
 Navigate to the `core` directory and run:
 
